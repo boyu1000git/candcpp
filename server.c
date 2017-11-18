@@ -11,6 +11,11 @@ void error(char *msg)
     exit(1);
 }
 
+int test()
+{
+	return "test";
+}
+
 int main(int argc, char *argv[])
 {
      int sockfd, newsockfd, portno, clilen;
