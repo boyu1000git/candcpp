@@ -4,9 +4,11 @@
 #include <netinet/in.h>
 #include <netdb.h> 
 
-void error(char *msg)
-{
+void error(char *msg) {
+
+	if(msg) {
     perror(msg);
+	}
     exit(0);
 }
 
