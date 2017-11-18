@@ -11,6 +11,11 @@ int error(char *msg)
     return 0;
 }
 
+int testfunc()
+{
+	return "testfunc";
+}
+
 int main(int argc, char *argv[])
 {
     int sockfd, portno, n;
