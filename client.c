@@ -4,7 +4,7 @@
 #include <netinet/in.h>
 #include <netdb.h> 
 
-int error2(char *msg)
+int error3(char *msg)
 {
     perror(msg);
 
